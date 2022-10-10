@@ -1,5 +1,4 @@
 #include "DFRobot_HT1632C.h"
-#include <Adafruit_NeoPixel.h>
 
 // Firebeetle USB long edge
 #define DATA 13
@@ -8,7 +7,6 @@
 #define RD   21
 
 DFRobot_HT1632C   ht1632c = DFRobot_HT1632C(DATA, WR, CS);
-Adafruit_NeoPixel pixels(NumPixels, PixelPin, NEO_GRB + NEO_KHZ800);
 
 char display_text[] = "Hello";
 
