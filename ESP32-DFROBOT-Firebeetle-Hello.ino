@@ -13,8 +13,6 @@ char display_text[] = "Hello";
 void setup() {
   Serial.begin(115200);
   delay(200);
-  pixels.begin(); // INITIALIZE NeoPixel object (REQUIRED)
-  delay(200);
   ht1632c.begin();
   ht1632c.isLedOn(true);
   ht1632c.clearScreen();
