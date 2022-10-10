@@ -1,3 +1,6 @@
+#undef min
+inline int min(int a, int b) { return ((a)<(b) ? (a) : (b)); }
+
 #include "DFRobot_HT1632C.h"
 
 // Firebeetle USB long edge
